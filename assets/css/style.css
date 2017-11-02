@@ -1,0 +1,703 @@
+body {
+	margin: auto;
+	/*width: 960px;*/
+	height: 1200px;
+	/*background-color: gainsboro;*/
+	background-image: url("../images/stonehaven.png");
+}
+.headr {
+	/*width: 960px;*/
+	height: 100px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+
+}
+.container {
+	width: 960px;
+	margin: auto;
+	height: 750px;
+}
+.footerClass {
+	clear: left;
+	widows: 960px;
+	height: 100px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: #666666;
+	color: gainsboro;
+}
+
+
+
+.et {
+	width: 350px;
+	height: 98px;
+	background-color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	display: inline-block;
+	margin: 0 0 0 100px;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	float: left;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contactInfo {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	margin: 0 100px 0 0;
+
+}
+
+.about {
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.portfolio {
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact {
+	margin: 0 20px 0 20px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.left {
+	float: left;
+	display: inline-block;
+	width: 495px;
+	height: 650px;
+	border: 1px solid #dddddd;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+}
+
+.right {
+	float: right;
+	display: inline-block;
+	width: 30%;
+	height: 200px;
+	border: 1px solid #dddddd;
+	margin: 50px 25px 0 0;
+	background-color: #ffffff;
+	color: teal;
+
+}
+
+#ericPicture {
+	float: left;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	margin: 0 8px 0 0;
+}
+
+#aboutMeText {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#secondP {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#thirdP {
+	display: block;
+	margin: 0 0 0 5px;
+	padding: 0 0 0 5px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.gitHubPicture {
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+}
+
+.linkedInPicture {
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+}
+
+.portfolioPicture {
+	display: inline-block;
+	height: 75px;
+	width: 75px;
+}
+
+.aboutMe {
+	width: 350px;
+	height: 70px;
+	background-color: #ffffff;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	margin: 0 0 0 55px;
+	text-align: left;
+	line-height: 100px;
+	vertical-align: middle;
+	float: left;
+	padding: 0 0 0 25px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.content {
+	clear: left;
+	width: 85%;
+	margin: 35px;
+	padding: 5px 0 0 0;
+	float: right;
+	display: inline-block;
+}
+
+.connectHeader {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.imageLinks {
+	padding: 5px;
+	text-align: center;
+	width: 85%;
+	border-top: 3px solid grey;
+	margin: 0 0 0 15px;
+}
+
+.contactForm {
+	float: left;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	width: 495px;
+	height: 650px;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+}
+
+.contactFormInput {
+	clear: left;
+	margin: 10px 0 0 60px;
+	padding: 20px 0 0 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contactFormBody {
+	font-size: 22px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=text] {
+	width: 300px;
+	height: 25px;
+	padding: 2.5px 2.5px 2.5px 2.5px;
+	margin: 5px 5px 5px 0;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 175px;
+	height: 50px;
+	margin: 20px 0 0 0;
+	font-size: 25px;
+	border: 1px solid #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.portfolioSection {
+	float: left;
+	width: 495px;
+	height: 650px;
+	border: 1px solid #ffffff;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+}
+
+.spaceInvaders {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	position: relative;
+}
+
+.pong {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	position: relative;
+}
+
+.soccerDash {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	position: relative;
+	display: inline-block;
+}
+
+.catMouse {
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+	position: relative;
+}
+
+.allGames {
+	margin: 20px 5px 0 20px;
+
+}
+.spaceInvadersTitle {
+	position: absolute;
+  z-index: 1;
+  top: 63px;
+  left: 10px;
+  height: 20px;
+  text-align: center;
+  width: 201px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.pongTitle {
+		position: absolute;
+  z-index: 1;
+  top: 63px;
+  left: 234px;
+  height: 20px;
+  text-align: center;
+  width: 201px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.catMouseTitle {
+	position: absolute;
+  z-index: 1;
+  top: 13px;
+  left: 9px;
+  height: 20px;
+  text-align: center;
+  width: 201px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.soccerDashTitle {
+	position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 234px;
+  height: 20px;
+  text-align: center;
+  width: 201px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.firstGames {
+	position: relative;
+}
+
+.secondGames {
+	position: relative;
+
+}
+
+@media screen and (max-width: 980px) {
+
+.contactInfo {
+	display: inline-block;
+	float: right;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	margin: 0 25px 0 0;
+
+}
+
+.about {
+	margin: 0 0px 0 0px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.portfolio {
+	margin: 0 0px 0 12px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact {
+	margin: 0 55px 0 12px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.headr {
+	/*width: 960px;*/
+	width: 100%;
+	height: 100px;
+	border: 1px solid black;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+}
+
+.et {
+	width: 45%;
+	height: 98px;
+	background-color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	display: inline-block;
+	/*margin: 0 0 0 100px;*/
+	margin-left: 0px;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	float: left;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contactInfo {
+	display: inline-block;
+	float: right;
+	text-align: right;
+	line-height: 100px;
+	vertical-align: middle;
+	margin: 0 10px 0 0;
+
+}
+
+.about {
+	margin: 0 5px 0 0;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+.portfolio {
+	margin: 0 5px 0 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.contact {
+	margin: 0 10px 0 0;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	color: grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+	.container {
+	width: 100%;
+	height: 1000px;
+	margin-top: 40px;
+}
+
+.left {
+	/*float: left;*/
+	display: inline-block;
+	width: 85%;
+	/*display: block;*/
+	/*width: 495px;*/
+	height: 725px;
+	border: 1px solid #dddddd;
+	/*margin: 50px 0 100px 50px;*/
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+	.portfolioSection {
+	float: left;
+	width: 85%;
+	height: 725px;
+	border: 1px solid #ffffff;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.contactForm {
+	float: left;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	width: 85%;
+	height: 650px;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.firstGames {
+	position: relative;
+	padding-bottom: 45px;
+}
+
+
+.right {
+	/*float: right;*/
+	width: 85%;
+	display: inline-block;
+	position: relative;
+	bottom: 70px;
+	right: 9px;
+	/*display: block;*/
+	/*width: 30%;*/
+	height: 200px;
+	border: 1px solid #dddddd;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	background-color: #ffffff;
+	color: teal;
+	overflow: auto;
+
+}
+
+.connectHeader {
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	/*margin-left: 55px;*/
+
+}
+
+.imageLinks {
+	padding: 5px;
+	text-align: center;
+	width: 85%;
+	border-top: 3px solid grey;
+	margin: 0 0 0 47px;
+}
+
+
+
+
+
+.footerClass {
+	clear: left;
+	widows: 960px;
+	height: 100px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: #666666;
+	color: gainsboro;
+	display: inline-block;
+	width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+	.header {
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	.et {
+	width: 100%;
+	height: 98px;
+	background-color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.contactInfo {
+	display: inline-block;
+	width: 100%;
+	height: 75px;
+	position: absolute;
+	top: 85px;
+	/*left: 115px;*/
+	text-align: center;
+	line-height: 75px;
+	vertical-align: middle;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.container {
+	width: 100%;
+	height: 1000px;
+	margin-top: 40px;
+}
+
+.left {
+	/*float: left;*/
+	display: inline-block;
+	width: 85%;
+	/*display: block;*/
+	/*width: 495px;*/
+	height: 725px;
+	border: 1px solid #dddddd;
+	/*margin: 50px 0 100px 50px;*/
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.aboutMe {
+	width: 350px;
+	height: 70px;
+	background-color: #ffffff;
+	border-bottom: 3px solid grey;
+	display: inline-block;
+	margin: 0 0 0 55px;
+	text-align: left;
+	line-height: 100px;
+	vertical-align: middle;
+	float: left;
+	padding: 0 0 0 25px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.portfolioSection {
+	float: left;
+	width: 85%;
+	height: 725px;
+	border: 1px solid #ffffff;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.contactForm {
+	float: left;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	width: 85%;
+	height: 650px;
+	margin: 50px 0 100px 50px;
+	background-color: #ffffff;
+	overflow: auto;
+}
+
+.firstGames {
+	position: relative;
+	padding-bottom: 45px;
+}
+
+
+.right {
+	/*float: right;*/
+	width: 85%;
+	display: inline-block;
+	position: relative;
+	bottom: 70px;
+	right: -17px;
+	/*display: block;*/
+	/*width: 30%;*/
+	height: 200px;
+	border: 1px solid #dddddd;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	background-color: #ffffff;
+	color: teal;
+	overflow: auto;
+
+}
+
+.connectHeader {
+	text-align: left;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-left: 55px;
+
+}
+
+
+
+
+
+.footerClass {
+	clear: left;
+	widows: 960px;
+	height: 100px;
+	border-top: 10px solid #4aaaa5;
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+	background-color: #666666;
+	color: gainsboro;
+	display: inline-block;
+	width: 100%;
+}
+
+
+}
